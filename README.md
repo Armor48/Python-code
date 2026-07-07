@@ -41,3 +41,33 @@ While many of these scripts use Python's built-in libraries (like `tkinter`, `ra
 To install the required dependencies, run:
 ```bash
 pip install -r requirements.txt
+
+
+How to Run
+To run any of the scripts, navigate to the repository folder in your terminal and execute:
+
+Bash
+
+python <script_name>.py
+Example:
+
+Bash
+
+python calculator_gui.py
+
+📝 Notes on Specific Scripts
+YouTube Downloader: May require yt-dlp or pytube. Ensure your FFmpeg is installed if you want to merge audio and video streams.
+ATS Score: May require PyPDF2 or pdfplumber to read PDF resumes.
+Wallpaper Changer: Uses OS-specific commands to set the desktop background (Works best on Windows/macOS).
+🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to check the issues page or fork the repo and create a pull request.
+
+📄 License
+Distributed under the MIT License. See LICENSE for more information.
+
+👤 Author
+Priyanshu Kumar
+
+GitHub: @Armor48
+If you found this repository useful, please consider giving it a ⭐ to show your support!
